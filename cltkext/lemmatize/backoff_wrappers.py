@@ -5,8 +5,8 @@ import string
 from typing import List, Dict, Tuple, Set, Any, Generator
 
 from cltk.alphabet.lat import JVReplacer
-from ensemble import EnsembleDictLemmatizer
-from utils import cli_installed, pad_punc, remove_macrons
+from cltkext.lemmatize.ensemble import EnsembleDictLemmatizer
+from cltkext.lemmatize.utils import cli_installed, pad_punc, remove_macrons
 from pprint import pprint
 
 replacer = JVReplacer()
